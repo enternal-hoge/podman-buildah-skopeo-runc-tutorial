@@ -167,6 +167,9 @@ CONTAINER ID  BUILDER  IMAGE ID     IMAGE NAME                       CONTAINER N
 17a37c64bcc4     *     e9ed59d2baf7 docker.io/library/fedora:latest  fedora-working-container
 ```
 
+Perhaps, to operate images, docker is neccesarry.
+
+Docker Install on Ubuntu 18.04LTS.
 ```
 # curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add
 # apt-key fingerprint 0EBFCD88
@@ -180,6 +183,7 @@ CONTAINER ID  BUILDER  IMAGE ID     IMAGE NAME                       CONTAINER N
 # systemctl list-unit-files --type=service | grep docker
 ```
 
+tutorial restart
 ```
 # buildah containers
 CONTAINER ID  BUILDER  IMAGE ID     IMAGE NAME                       CONTAINER NAME
